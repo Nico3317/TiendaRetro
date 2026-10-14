@@ -1,0 +1,4 @@
+# Las imágenes no deben poder ejecutarse como código
+<FilesMatch "\.(php|phtml|phar)$">
+    Require all denied
+</FilesMatch>
